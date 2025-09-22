@@ -1,0 +1,146 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+/* Contenedor principal */
+
+.contenedor {
+      display: flex;
+      width: 100%;
+      max-width: 1000px;
+      margin: 0 auto;
+      height: auto;
+    }
+
+/* Sección intermedia */
+
+.intermedio {
+      width: 35%;
+      background-color: #B18ABD;
+      color: white;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+/* Sección derecha */
+
+.right {
+      width: 65%;
+      background-color: #F8F4F9;
+    }
+
+/* Imagen circular */
+
+.photo {
+      width: 250px;
+      height: 330px;
+      border-radius: 40%;
+      overflow: hidden;
+      margin-bottom: 20px;
+      object-fit: cover;
+    }
+
+/* Tipografías */
+
+.coiny-regular {
+  font-family: "Coiny", system-ui;
+  font-weight: 400;
+    font-style: normal;
+  font-size: 35px;
+  color:#ABBD8A
+}
+
+/* Texto */
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    margin-top: 0;
+font-size: 40px;
+}
+
+/* Sección superior */
+
+.arriba{
+      background-color: #B18ABD;
+      color: white;
+  padding: 35px;
+}
+
+/* Colores de fondo y texto */
+
+.black{
+  color: white;
+}
+
+/* Márgenes */
+
+.margen{
+  padding: 30px;
+}
+
+/* Estilos responsivos */
+
+@media (max-width: 768px) {
+  .contenedor {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* Sección intermedia en móvil */
+
+  .intermedio {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .photo {
+    width: 220px;
+    height: 280px;
+    border-radius: 40%;
+    margin-bottom: 15px;
+  }
+
+  .arriba {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .margen {
+    padding: 20px;
+  }
+
+  .coiny-regular {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .bebas-neue-regular {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1rem;
+    text-align: center;
+  }
+}

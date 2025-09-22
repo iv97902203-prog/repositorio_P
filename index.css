@@ -108,7 +108,7 @@ h2 {
 .lineas-verticales-izquierda {
   left: 0;
 }
-
+/* Estilos para los divs dentro de las líneas verticales */
 .lineas-verticales-derecha div,
 .lineas-verticales-izquierda div {
   width: 4px;
@@ -116,6 +116,8 @@ h2 {
   background: white;
   border-radius: 2px;
 }
+
+/* Colores específicos para cada línea */
 
 .naranja div {
   background: orange;

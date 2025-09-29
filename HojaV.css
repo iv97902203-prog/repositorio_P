@@ -3,8 +3,6 @@ body {
       font-family: Arial, sans-serif;
     }
 
-/* Contenedor principal */
-
 .contenedor {
       display: flex;
       width: 100%;
@@ -12,8 +10,6 @@ body {
       margin: 0 auto;
       height: auto;
     }
-
-/* Sección intermedia */
 
 .intermedio {
       width: 35%;
@@ -25,14 +21,11 @@ body {
       align-items: center;
     }
 
-/* Sección derecha */
-
 .right {
       width: 65%;
       background-color: #F8F4F9;
+ 
     }
-
-/* Imagen circular */
 
 .photo {
       width: 250px;
@@ -43,8 +36,6 @@ body {
       object-fit: cover;
     }
 
-/* Tipografías */
-
 .coiny-regular {
   font-family: "Coiny", system-ui;
   font-weight: 400;
@@ -53,7 +44,6 @@ body {
   color:#ABBD8A
 }
 
-/* Texto */
 
 p {
   font-family: "Nunito Sans", sans-serif;
@@ -72,28 +62,19 @@ p {
     margin-top: 0;
 font-size: 40px;
 }
-
-/* Sección superior */
-
 .arriba{
       background-color: #B18ABD;
       color: white;
   padding: 35px;
 }
 
-/* Colores de fondo y texto */
-
 .black{
   color: white;
 }
 
-/* Márgenes */
-
 .margen{
   padding: 30px;
 }
-
-/* Estilos responsivos */
 
 @media (max-width: 768px) {
   .contenedor {
@@ -101,8 +82,7 @@ font-size: 40px;
     align-items: center;
     width: 100%;
   }
-
-  /* Sección intermedia en móvil */
+}
 
   .intermedio {
     width: 100%;
@@ -143,4 +123,3 @@ font-size: 40px;
     font-size: 1rem;
     text-align: center;
   }
-}
